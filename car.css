@@ -1,0 +1,48 @@
+.author1 {
+  width: 25%;
+  text-align: center;
+  height: 25%;
+  background: linear-gradient(145deg, rgba(244, 129, 63, 1) 0%, rgba(241, 85, 106, 1) 100%);
+  padding: 1%;
+  color: white;
+  margin: auto;
+}
+
+.author1 .bx {
+  color: white;
+}
+
+.author1 h3,
+p,
+span {
+  padding: 5%;
+}
+
+.car {
+  display: flex !important;
+  justify-content: space-between;
+  position: relative;
+  width: 90% !important;
+  margin: auto !important;
+}
+
+.carousel-control-next {
+  width: 100px !important;
+  height: 100px !important;
+  background: linear-gradient(145deg, rgb(241, 85, 15) 0%, rgba(241, 85, 106) 100%) !important;
+  border-radius: 15px;
+  position: absolute !important;
+  right: 5% !important;
+  top: 30% !important;
+  
+}
+
+.carousel-control-prev {
+  width: 100px !important;
+  height: 100px !important;
+  background: linear-gradient(145deg, rgba(241,85, 63) 0%, rgba(241, 85, 106) 100%) !important;
+  border-radius: 15px;
+  position: absolute !important;
+  left: 85% !important;
+  top: 10% !important;
+}

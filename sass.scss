@@ -1,0 +1,95 @@
+body {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', serif;
+
+    header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0%;
+        left: 0%;
+        margin-top: 30px;
+
+        div {
+            text-align: center;
+        }
+
+        nav {
+            padding-right: 100px;
+
+            ul {
+                display: flex;
+                justify-content: space-evenly;
+                margin-right: 100px;
+                background-color: #fff;
+                padding: 10px;
+
+                li {
+                    padding-right: 20px;
+
+                    a {
+                        font-size: 16px;
+
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    div {
+        height: 112vh;
+        width: 100%;
+        background-image: url(./banner-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+
+        div {
+            width: 50%;
+            margin-left: 5%;
+            padding-top: 19%;
+            padding-left: 8%;
+            padding-right: 70px;
+
+            h1 {
+                font-family: 'Poppins', serif;
+                font-weight: 900;
+                font-size: 55px;
+                color: #191a20;
+                margin: auto;
+                padding-right: 100px;
+                padding-bottom: 0px;
+
+                em {
+                    color: orange;
+                    font-style: normal;
+                }
+            }
+
+            p {
+                padding-top: 40px;
+                padding-bottom: 30px;
+                line-height: 30px;
+                letter-spacing: 1px;
+                text-align: left;
+            }
+
+            a {
+                background-color: #fba70b;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 20px;
+                color: #fff;
+            }
+        }
+    }
+
+}
