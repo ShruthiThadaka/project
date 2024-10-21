@@ -752,17 +752,20 @@ hr {
         width: 80% !important;
 
     }
+
     .author2 {
         display: none;
     }
-    
+
     .carousel-control-prev,
     .carousel-control-next {
         display: none !important;
     }
-    .carousel{
+
+    .carousel {
         margin-top: 10%;
     }
+
     .footer {
         height: auto;
     }
@@ -786,9 +789,15 @@ hr {
         margin: auto;
     }
 
-}@media (min-width:563px) and (max-width:767px){
+}
+
+@media (min-width:576px) and (max-width:767px) {
+
+    html,
     body {
         overflow-x: hidden;
+        margin: 0%;
+        padding: 0%;
     }
 
     .div1 {
@@ -810,10 +819,11 @@ hr {
         width: 100%;
         padding-top: 20%;
     }
+
     .div3 {
         flex-wrap: wrap;
         width: 100%;
-        padding-top: 50%;
+        padding-top: 70%;
     }
 
 
@@ -824,6 +834,7 @@ hr {
         margin-top: 20%;
         margin: auto;
     }
+
     .parent4 {
         display: block;
         width: 100%;
@@ -848,17 +859,20 @@ hr {
         width: 80% !important;
 
     }
+
     .author2 {
         display: none;
     }
-    
+
     .carousel-control-prev,
     .carousel-control-next {
         display: none !important;
     }
-    .carousel{
+
+    .carousel {
         margin-top: 10%;
     }
+
     .footer {
         height: auto;
     }
@@ -881,6 +895,7 @@ hr {
     .submit {
         margin: auto;
     }
+
     #menu-toggle:checked+label+nav ul {
         display: flex;
         flex-direction: column;
@@ -907,7 +922,9 @@ hr {
 
 }
 
-@media (max-width:563px) {
+@media (max-width:576px) {
+
+    html,
     body {
         overflow-x: hidden;
     }
@@ -935,7 +952,7 @@ hr {
     .div3 {
         flex-wrap: wrap;
         width: 100%;
-        padding-top: 65%;
+        padding-top: 75%;
     }
 
 
@@ -1012,6 +1029,202 @@ hr {
 
     .footer {
         height: auto;
+        margin: 0%;
+    }
+
+    .footer1 {
+        flex-wrap: wrap;
+
+    }
+
+    .form,
+    .right {
+        width: 100%;
+
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .submit {
+        margin-left: -20px;
+    }
+
+    #menu-toggle:checked+label+nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+        height: 260px;
+        position: absolute;
+        top: 100%;
+        right: -20%;
+        background-color: #fff;
+        z-index: 100;
+
+        .hover2 ul {
+            display: none;
+        }
+
+        .hover2:hover .dropdown2 {
+            display: block;
+            width: 80%;
+            padding-left: 10%;
+        }
+
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .hamburgar {
+        display: flex;
+        padding-left: 25%;
+    }
+
+    .hamburgar span {
+        margin: 5px;
+        background-color: black;
+    }
+
+    header {
+        margin: 0%;
+        padding: 10px;
+        padding-left: 25%;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .carousel-inner {
+        padding-top: 30%;
+    }
+
+    .section3 {
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width:767px) and (max-width:992px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .div1 {
+        width: 100%;
+        background-image: url(./banner-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        margin: 0% !important;
+        padding: 0% !important;
+        height: 140vh;
+    }
+    header{
+        padding-left: 400px;
+        background-color: #fff;
+        margin: 0;
+        height: 80px;
+    }
+
+    .sub {
+        padding-top: 100%;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .sub1 {
+        width: 100%;
+    }
+
+    .div2 {
+        width: 100%;
+        padding-top: 20%;
+    }
+
+    .div3 div {
+        width: 300px;
+    }
+
+    .div3 {
+        gap: 20px;
+        padding-top: 50%;
+    }
+
+
+    .parent3 {
+        background-size: contain;
+    }
+
+    .parent4 {
+        display: block;
+        margin: auto;
+
+        .child1 {
+            width: 80%;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        .child1 img {
+            width: 80%;
+        }
+
+        .icon {
+            width: 80%;
+            padding: 10px;
+            margin: 0px;
+            display: inline;
+
+        }
+
+        .icons {
+            width: 100%;
+        }
+
+        .icon img {
+            float: left;
+            margin-bottom: 0%;
+        }
+
+        .icon ul p {
+            display: block;
+        }
+    }
+
+    .heading2 h2,
+    .heading2 p {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .car .author1 {
+        width: 100% !important;
+
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none !important;
+    }
+
+    .car {
+        flex-wrap: wrap;
+    }
+
+    .author2 {
+        display: none;
+    }
+
+    .footer {
+        height: auto;
+        margin-top: 10%;
     }
 
     .footer1 {
@@ -1050,159 +1263,18 @@ hr {
 
     .hamburgar {
         display: flex;
-
-    }
-
-    .hamburgar span {
-        margin: 5px;
-    }
-}
-@media (min-width:767px) and (max-width:992px){
-    body {
-        overflow-x: hidden;
-    }
-
-    .div1 {
-        background-position: top;
-        background-size: contain;
-    }
-
-    .sub {
-        padding-top: 100%;
-        width: 100%;
-        flex-wrap: nowrap;
-    }
-
-    .sub1 {
-        width: 100%;
-    }
-
-    .div2 {
-        width: 100%;
-        padding-top: 20%;
-    }
-    .div3 div {
-        width: 250px;
-    }
-    .div3 {
-        gap: 20px;
-        padding-top: 100%;
-    }
-
-
-    .parent3 {
-        background-size: contain;
-    }
-
-    .parent4 {
-        display: block;
-        margin: auto;
-
-        .child1 {
-            width: 80%;
-            padding: 10px;
-            margin: 0px;
-        }
-
-        .child1 img {
-            width: 80%;
-        }
-
-        .icon {
-            width: 80%;
-            padding: 10px;
-            margin: 0px;
-            display: inline;
-
-        }
-
-        .icons {
-            width: 100%;
-        }
-
-        .icon img {
-            float: left;
-            margin-bottom: 0%;
-        }
-
-        .icon ul p {
-            display: block;
-        }
-    }
-
-    .heading2 h2,
-    .heading2 p {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .car .author1 {
-        width: 100% !important;
-
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        display: none !important;
-    }
-
-    .car {
-        flex-wrap: wrap;
-    }
-
-    .author2 {
-        display: none;
-    }
-
-    .footer {
-        height: auto;
-    }
-
-    .footer1 {
-        flex-wrap: wrap;
-
-    }
-
-    .form,
-    .right {
-        width: 100%;
-
-    }
-
-    textarea {
-        width: 100%;
-    }
-
-    .submit {
-        margin: auto;
-    }
-
-    #menu-toggle:checked+label+nav ul {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 60%;
-        right: 30%;
-        background-color: #333;
-        z-index: 100;
-
-    }
-
-    nav ul {
-        display: none;
-    }
-
-    .hamburgar {
-        display: flex;
         margin-right: 0%;
+        padding-left: 300px;
     }
 
     .hamburgar span {
         margin: 5px;
+        background-color: black;
     }
-    header{
-        h1{
+
+    header {
+        h1 {
             text-align: center;
         }
-        }
+    }
 }
