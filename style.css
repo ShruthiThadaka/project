@@ -899,11 +899,24 @@ hr {
     #menu-toggle:checked+label+nav ul {
         display: flex;
         flex-direction: column;
+        gap: 20px;
+        width: 40%;
+        height: 260px;
         position: absolute;
-        top: 60%;
-        right: 30%;
-        background-color: #333;
+        top: 100%;
+        right: -20%;
+        background-color: #fff;
         z-index: 100;
+
+        .hover2 ul {
+            display: none;
+        }
+
+        .hover2:hover .dropdown2 {
+            display: block;
+            width: 80%;
+            padding-left: 10%;
+        }
 
     }
 
@@ -913,11 +926,19 @@ hr {
 
     .hamburgar {
         display: flex;
-
+        padding-left: 25%;
     }
 
     .hamburgar span {
         margin: 5px;
+        background-color: black;
+    }
+
+    header {
+        margin: 0%;
+        padding: 10px;
+        padding-left: 25%;
+        background-color: rgba(255, 255, 255, 0.9);
     }
 
 }
@@ -1124,13 +1145,13 @@ hr {
         background-position: right;
         margin: 0% !important;
         padding: 0% !important;
-        height: 140vh;
+        height: 130vh;
     }
     header{
         padding-left: 400px;
+        padding-top: 20px;
         background-color: #fff;
         margin: 0;
-        height: 80px;
     }
 
     .sub {
@@ -1249,11 +1270,24 @@ hr {
     #menu-toggle:checked+label+nav ul {
         display: flex;
         flex-direction: column;
+        gap: 20px;
+        width: 30%;
+        height: 260px;
         position: absolute;
-        top: 60%;
-        right: 30%;
+        top: 100%;
+        right: -20%;
         background-color: #fff;
         z-index: 100;
+
+        .hover2 ul {
+            display: none;
+        }
+
+        .hover2:hover .dropdown2 {
+            display: block;
+            width: 80%;
+            padding-left: 12%;
+        }
 
     }
 
@@ -1263,14 +1297,14 @@ hr {
 
     .hamburgar {
         display: flex;
-        margin-right: 0%;
-        padding-left: 300px;
+        padding-left: 25%;
     }
 
     .hamburgar span {
         margin: 5px;
         background-color: black;
     }
+
 
     header {
         h1 {
